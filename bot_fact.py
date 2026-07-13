@@ -4,7 +4,7 @@ from logic import get_fact
 from logic import speak
 
 
-bot = telebot.TeleBot("8586339682:AAGr8SLSyjOi8NrwVqcogvCdfWQvQwJfNXo")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
